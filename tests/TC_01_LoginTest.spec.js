@@ -46,7 +46,7 @@ test("user Should Login With Valid Credentials",async({loginPage})=>{
 });
 });
 
-test.describe.only("Negative Login Functionality",()=>{
+test.describe("Negative Login Functionality",()=>{
   test("User should not login with invalid credentials",async({loginPage})=>{
   await test.step("Open the website",async()=>{
     await loginPage.openApp();
