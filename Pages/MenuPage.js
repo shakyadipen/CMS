@@ -1,5 +1,5 @@
-import BasePage from "../Pages/BasePage";
-import { expect } from "@playwright/test";
+import BasePage from "../Pages/basePage";
+
 import fs from "fs";
 
 const testData=JSON.parse(fs.readFileSync('./data/users.json'));

@@ -1,5 +1,5 @@
 import { test as fixture } from '@playwright/test'
-import LoginPage from '../Pages/loginPage'
+import LoginPage from '../Pages/LoginPage'
 import Dashboard from '../Pages/Dashboard';
 import MenuPage from '../Pages/MenuPage';
 import TestimonialPageTest from '../Pages/TestimonialsPage';
