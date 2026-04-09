@@ -1,0 +1,1 @@
+export const baseUrl="https://dev-dashboard.madebynexora.com/login";
